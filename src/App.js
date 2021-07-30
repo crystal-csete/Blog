@@ -1,15 +1,16 @@
 /** @format */
 
 import React from "react";
-import Navigation from "./components/Navigation";
+import Home from "./containers/Home";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className='container-fluid app__container'>
-      <Navigation />
-      <div className='jumbotron'>
-        <h1 id='home'>App file</h1>
-      </div>
+      <Header />
+      <Hero />
+      <Home />
     </div>
   );
 }
@@ -17,3 +18,7 @@ function App() {
 export default App;
 
 // https://www.youtube.com/watch?v=P8q7CRSMJRA
+
+// https://www.youtube.com/watch?v=JE8w1gvn0Y4&t=0s
+
+// https://www.youtube.com/watch?v=JEbk6AjCWQs&t=0s

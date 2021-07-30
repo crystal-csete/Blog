@@ -7,14 +7,16 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 62.5%;
+  background-color: rgb(215, 228, 223);
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .app__container {
-}
-
-.jumbotron {
-  background-color: aqua;
-  height: 10rem;
+  width: 90%;
+  border: 1px solid black;
 }
